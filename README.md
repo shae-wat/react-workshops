@@ -1,2 +1,3 @@
-# reactWorkshop_simpleComponent
-simple component for WWC React Workshop #1
+# React Workshops for WWC
+
+Workshop #1: Simple Animation component
