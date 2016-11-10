@@ -17,6 +17,7 @@
     "style-loader": "^0.13.1"
   },
   "dependencies": {
+    "path": "^0.12.7",
     "react": "^15.3.2",
     "react-dom": "^15.3.2"
   }

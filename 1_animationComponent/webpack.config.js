@@ -1,3 +1,5 @@
+var path = require('path');
+
 module.exports = {
   entry: "./app/components/Main.js",
   output: {
@@ -16,6 +18,7 @@ module.exports = {
       {
         test: /\.css/,
         loaders: ['style', 'css'],
+        include: path.join(__dirname, './app'),
       },
     ]
   }

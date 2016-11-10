@@ -66,8 +66,8 @@
 	  render: function render() {
 	    return _react2.default.createElement(
 	      'div',
-	      { className: _Main2.default.container },
-	      'Hello React!'
+	      { className: 'mainContainer' },
+	      _react2.default.createElement('div', { className: 'innerContainer' })
 	    );
 	  }
 	});
@@ -21476,7 +21476,7 @@
 
 
 	// module
-	exports.push([module.id, ".container {\n  background-color: red;\n  font-size: 36px;\n}", ""]);
+	exports.push([module.id, ".mainContainer {\n  background-color: red;\n  width: 100px;\n  height: 100px;\n  border-radius: 50px;\n}\n\n.innerContainer {\n  background-color: blue;\n  width: 50px;\n  height: 50px;\n  margin: 25px;\n  border-radius: 25px;\n}\n", ""]);
 
 	// exports
 

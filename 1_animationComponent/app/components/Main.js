@@ -6,7 +6,10 @@ import styles from './Main.css';
 let Main = React.createClass({
   render: function(){
     return (
-      <div className={styles.container}>Hello React!</div>
+      <div className='mainContainer'>
+        <div className='innerContainer'>
+        </div>
+      </div>
     )
   }
 })
