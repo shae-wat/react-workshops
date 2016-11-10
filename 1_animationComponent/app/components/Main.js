@@ -1,10 +1,12 @@
 import React from 'react';
 import ReactDom from 'react-dom';
 
+import styles from './Main.css';
+
 let Main = React.createClass({
   render: function(){
     return (
-      <div>Hello React!</div>
+      <div className={styles.container}>Hello React!</div>
     )
   }
 })
