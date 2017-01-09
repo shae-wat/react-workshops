@@ -5,10 +5,10 @@ Task: Create two components demonstrating CSS animations
 How to start:
  - Fork shae-wat/reactWorkshops repo onto your machine, or download the files and push to your own repo
  - Navigate to the 2_animationComponent project directory
- - Make a new branch off development
  - npm install
  - npm start
  - You should see an instance of localhost launch with a header and 2 tabs labeled "Component 1" and "Component 2"
+ - Make a new branch off development
  - Build two components with CSS animations
    - https://blog.alexmaccaw.com/css-transitions
    - https://blog.gyrosco.pe/smooth-css-animations-7d8ffc2c1d29#.6dyj96rjs
