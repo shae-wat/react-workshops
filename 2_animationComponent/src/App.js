@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import Toggle from './components/Toggle.js';
+import Component1 from './components/Component1.js';
+import Component2 from './components/Component2.js';
 
 import './App.css';
 
@@ -20,6 +22,14 @@ class App extends Component {
           <Toggle 
             tab={this.state.activeTab}
             handleToggle={this.handleToggle}
+            />
+        </div>
+        <div>
+          <Component1 
+            activeTab={this.state.activeTab}
+            />
+          <Component2 
+            activeTab={this.state.activeTab}
             />
         </div>
       </div>

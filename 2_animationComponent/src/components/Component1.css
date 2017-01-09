@@ -1,0 +1,10 @@
+.Component1__heart {
+  background: url(../images/explodingHearts.png);
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+}
+
+.Component1__position {
+  background-position: 0px 0px;
+}
