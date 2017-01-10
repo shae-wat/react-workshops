@@ -12,6 +12,10 @@ How to start:
  - Build two components with CSS animations
    - https://blog.alexmaccaw.com/css-transitions
    - https://blog.gyrosco.pe/smooth-css-animations-7d8ffc2c1d29#.6dyj96rjs
+   
+Ideas:
+ - https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Images/Implementing_image_sprites_in_CSS
+ - http://blog.teamtreehouse.com/css-sprite-sheet-animations-steps
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
