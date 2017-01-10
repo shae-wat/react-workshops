@@ -7,8 +7,8 @@ class Component2 extends Component {
     if (this.props.activeTab !== '2') return null;
 
     return (
-      <div className='container'>
-        Component2
+      <div className='Component2__container'>
+        <div className='Component2__monster' />
       </div>
     );
   }

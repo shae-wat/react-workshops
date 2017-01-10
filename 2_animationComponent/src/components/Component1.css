@@ -5,7 +5,7 @@
   width: 100px;
   margin: 100px;
   cursor: pointer;
-  animation: playv .8s steps(8) infinite, playh 1.2s steps(4) infinite;
+  animation: playv .6s steps(8) infinite, playh 2.4s steps(4) infinite;
 }
 
 @keyframes playv {
