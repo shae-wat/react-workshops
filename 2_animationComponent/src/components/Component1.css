@@ -1,0 +1,20 @@
+.Component1__heart {
+  background: url(../images/explodingHearts.png);
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  margin: 100px;
+  cursor: pointer;
+  animation: playv .6s steps(8) infinite, playh 2.4s steps(4) infinite;
+}
+
+@keyframes playv {
+   0% { background-position-x: 0px; }
+   100% { background-position-x: -800px; }
+}
+
+@keyframes playh {
+   0% { background-position-y: 0px; }
+   100% { background-position-y: -500px; }
+}
+
