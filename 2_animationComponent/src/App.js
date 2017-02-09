@@ -18,20 +18,18 @@ class App extends Component {
         <div className="appHeader">
           <img src={logo} className="appLogo" alt="logo" />
         </div>
-        <div className='toggle'>
-          <Toggle 
-            tab={this.state.activeTab}
-            handleToggle={this.handleToggle}
-            />
-        </div>
-        <div>
-          <Component1 
-            activeTab={this.state.activeTab}
-            />
-          <Component2 
-            activeTab={this.state.activeTab}
-            />
-        </div>
+        <Toggle 
+          tab={this.state.activeTab}
+          handleToggle={this.handleToggle}
+          />
+        <Component1 
+          activeTab={this.state.activeTab}
+          bananas='b'
+          oranges='o'
+          />
+        <Component2 
+          activeTab={this.state.activeTab}
+          />
       </div>
     );
   }
