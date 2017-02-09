@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
+import Header from './components/Header.js';
 import Toggle from './components/Toggle.js';
 
 import './App.css';
@@ -13,15 +14,13 @@ class App extends Component {
   render() {
     return (
       <div className='animationComponent'>
-        <div className="appHeader">
-          <img src={logo} className="appLogo" alt="logo" />
-        </div>
-        <div className='toggle'>
-          <Toggle 
-            tab={this.state.activeTab}
-            handleToggle={this.handleToggle}
-            />
-        </div>
+        <Header
+          logo={logo}
+          />
+        <Toggle 
+          tab={this.state.activeTab}
+          handleToggle={this.handleToggle}
+          />
       </div>
     );
   }
