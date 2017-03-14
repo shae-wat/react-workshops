@@ -4,7 +4,7 @@ WWC React Workshop 3/16/2017
 Task: Create two Chart.js components, find cool or made up data to plot
 
 How to start:
-*Fork shae-wat/reactWorkshops repo onto your machine, or download the files and push to your own repo
+* Fork shae-wat/reactWorkshops repo onto your machine, or download the files and push to your own repo
 * Navigate to the 3_chartjsComponent project directory
 * `npm install`
 * `npm start`
@@ -17,6 +17,7 @@ How to start:
 
 
 Info on [React Create App](https://github.com/facebookincubator/create-react-app)
+=================================================================================
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
