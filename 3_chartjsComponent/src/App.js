@@ -16,7 +16,7 @@ class App extends Component {
 
   render() {
     return (
-      <div className='animationComponent'>
+      <section className='animationComponent'>
         <Header
           logo={logo}
         />
@@ -30,7 +30,7 @@ class App extends Component {
         <Component2 
           activeTab={this.state.activeTab} 
         />
-      </div>
+      </section>
     );
   }
 

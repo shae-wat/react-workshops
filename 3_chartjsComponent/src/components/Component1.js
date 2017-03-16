@@ -4,18 +4,14 @@ import Chart from 'chart.js';
 import './Component.css';
 
 class Component1 extends Component {
-  constructor(props) {
-    super(props);
-  }
-
   componentDidMount(){
-    console.log('componentDidMount')
     this.createChart();
   }
 
-  componentWillReceiveProps() {
-    console.log('componentWillReceiveProps', this.chart)
-    this.chart.update();
+  componentDidUpdate(){
+    if (this.props.activeTab === '1') {
+      this.createChart();
+    }
   }
 
   render() {
@@ -24,9 +20,9 @@ class Component1 extends Component {
     return (
       <div className='chart-container'>
         <canvas 
-          ref={(r)=>{this.chartRef = r;}} 
-          width="300" 
-          height="300"
+          ref={(r)=>{this.chartElement=r;}}
+          width="400" 
+          height="400"
         />
       </div>
     );
@@ -36,8 +32,8 @@ class Component1 extends Component {
     if (this.chart) {
       this.chart.destroy();
     }
-    this.chart = new Chart(this.chartRef, {
-      type: 'bar',
+    this.chart = new Chart(this.chartElement, {
+      type: 'line',
       data: {
           labels: ["Red", "Blue", "Yellow", "Green", "Purple", "Orange"],
           datasets: [{
