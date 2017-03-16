@@ -5,9 +5,9 @@ import '../App.css';
 class Header extends Component {
   render() {
     return (
-      <div className="appHeader">
+      <header className="appHeader">
         <img src={this.props.logo} className="appLogo" alt="logo" />
-      </div>
+      </header>
     );
   }
 }
