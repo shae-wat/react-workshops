@@ -19,13 +19,17 @@ class App extends Component {
       <div className='animationComponent'>
         <Header
           logo={logo}
-          />
+        />
         <Toggle 
           tab={this.state.activeTab}
           handleToggle={this.handleToggle}
-          />
-        <Component1 activeTab={this.state.activeTab} />
-        <Component2 activeTab={this.state.activeTab} />
+        />
+        <Component1 
+          activeTab={this.state.activeTab} 
+        />
+        <Component2 
+          activeTab={this.state.activeTab} 
+        />
       </div>
     );
   }
