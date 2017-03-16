@@ -14,6 +14,9 @@ How to start:
   * [Chart.js Documentation](http://www.chartjs.org/docs/)
 
 
+Hint: [Use refs when integrating with third-party DOM libraries](https://facebook.github.io/react/docs/refs-and-the-dom.html)
+
+
 
 
 Info on [React Create App](https://github.com/facebookincubator/create-react-app)
