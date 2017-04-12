@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+
 import logo from './logo.svg';
 import Header from './components/Header.js';
 import Toggle from './components/Toggle.js';
@@ -17,7 +18,7 @@ class App extends Component {
         <Header
           logo={logo}
           />
-        <Toggle 
+        <Toggle
           tab={this.state.activeTab}
           handleToggle={this.handleToggle}
           />
