@@ -1,3 +1,27 @@
+WWC React Workshop 4/12/2017
+=============================
+
+Task: Configure Redux and Firebase to handle users. Make two components showing user data.
+
+How to start:
+* Fork shae-wat/reactWorkshops repo onto your machine, or download the files and push to your own repo
+* Navigate to the 4_users project directory
+* `npm install`
+* `npm start`
+* You should see an instance of localhost launch with a header and 2 tabs labeled "Component 1" and "Component 2"
+* Make a new branch off master
+* Configure Redux and Firebase to handle users
+* Make two components showing user data.
+
+
+
+
+
+
+
+Info on [React Create App](https://github.com/facebookincubator/create-react-app)
+=================================================================================
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
@@ -911,7 +935,7 @@ This feature is experimental and still [has major usage issues](https://github.c
 
 ### Editor Integration
 
-If you use [Visual Studio Code](https://code.visualstudio.com), there is a [Jest extension](https://github.com/orta/vscode-jest) which works with Create React App out of the box. This provides a lot of IDE-like features while using a text editor: showing the status of a test run with potential fail messages inline, starting and stopping the watcher automatically, and offering one-click snapshot updates. 
+If you use [Visual Studio Code](https://code.visualstudio.com), there is a [Jest extension](https://github.com/orta/vscode-jest) which works with Create React App out of the box. This provides a lot of IDE-like features while using a text editor: showing the status of a test run with potential fail messages inline, starting and stopping the watcher automatically, and offering one-click snapshot updates.
 
 ![VS Code Jest Preview](https://cloud.githubusercontent.com/assets/49038/20795349/a032308a-b7c8-11e6-9b34-7eeac781003f.png)
 
