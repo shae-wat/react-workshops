@@ -11,7 +11,7 @@ class Button extends Component {
 
     return (
       <div
-        onClick={this.props.disabled ? null : this.props.handleClick}
+        onClick={!this.props.disabled ? this.props.handleClick : null}
         className={button}
       >
         {this.props.text}
@@ -22,8 +22,8 @@ class Button extends Component {
 
 Button.propTypes = {
   disabled: React.PropTypes.bool,
-  text: React.PropTypes.string,
-  handleClick: React.PropTypes.func,
+  text: React.PropTypes.string.isRequired,
+  handleClick: React.PropTypes.func.isRequired,
 }
 
 export default Button;

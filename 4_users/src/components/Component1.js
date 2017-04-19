@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Chart from 'chart.js';
 
 import Button from './Button.js';
 import './Component.css';
@@ -27,7 +26,8 @@ class Component1 extends Component {
   }
 
   handleClick = () => {
-    this.console.log('handleClick');
+    console.log('handleClick');
+    //dispatch(addUser('email', 'password'))
   }
 
 }

@@ -5,10 +5,10 @@ const user = (state = {}, action) => {
         id: action.id,
         email: action.email,
         password: action.password
-      }
+      };
 
     default:
-      return state
+      return state;
   }
 }
 
