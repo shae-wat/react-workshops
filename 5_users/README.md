@@ -1,4 +1,4 @@
-WWC React Workshop 4/12/2017
+WWC React Workshop 4/19/2017
 =============================
 
 Task: Configure Redux and Firebase to handle users. Make two components showing user data.
