@@ -4,7 +4,7 @@ import Header from './components/Header.js';
 import Toggle from './components/Toggle.js';
 import Component1 from './components/Component1.js';
 import Component2 from './components/Component2.js';
-
+import section from './actions/section.js';
 
 import './App.css';
 
@@ -38,6 +38,7 @@ class App extends Component {
     this.setState({
       activeTab: tab,
     });
+    //section.setSection('component1');
   }
 }
 

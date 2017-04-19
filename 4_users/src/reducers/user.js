@@ -3,13 +3,12 @@ const user = (state = {}, action) => {
     case 'ADD_USER':
       return {
         id: action.id,
-        success: action.success,
         email: action.email,
         password: action.password
-      }
+      };
 
     default:
-      return state
+      return state;
   }
 }
 
