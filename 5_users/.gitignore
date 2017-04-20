@@ -1,1 +1,7 @@
 /node_modules
+
+database.rules.json
+firebase-database.js
+firebase.json
+.firebaserc
+/functions

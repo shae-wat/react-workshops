@@ -1,5 +1,4 @@
 const section = (state = {}, action) => {
-  console.log('section reducer', action.type)
   switch (action.type) {
     case '@@redux/INIT':
       return {
@@ -10,7 +9,7 @@ const section = (state = {}, action) => {
       return {
         id: action.id,
       };
-
+    
     default:
       return state;
   }
