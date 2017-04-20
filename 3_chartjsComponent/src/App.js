@@ -20,15 +20,15 @@ class App extends Component {
         <Header
           logo={logo}
         />
-        <Toggle 
+        <Toggle
           tab={this.state.activeTab}
           handleToggle={this.handleToggle}
         />
-        <Component1 
-          activeTab={this.state.activeTab} 
+        <Component1
+          activeTab={this.state.activeTab}
         />
-        <Component2 
-          activeTab={this.state.activeTab} 
+        <Component2
+          activeTab={this.state.activeTab}
         />
       </section>
     );
